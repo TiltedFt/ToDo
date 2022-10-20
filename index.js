@@ -9,3 +9,9 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+let arr = [1, 2, 3];
+
+arr.forEach((a) => {
+  console.log(a)
+})
